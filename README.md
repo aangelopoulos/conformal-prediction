@@ -1,3 +1,3 @@
 # conformal-prediction
 
-There is just one notebook in this repository, and it leads you through how to code up conformal prediction.
+Several simple worked examples of conformal prediction with real data that you can easily copy and use in your papers.
