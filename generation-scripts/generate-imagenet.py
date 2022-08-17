@@ -52,7 +52,7 @@ if __name__ == "__main__":
 
         for batch in tqdm(imagenet_loader):
             scores[counter:counter+batch[0].shape[0],:] = model(batch[0].cuda()).softmax(dim=1).cpu().numpy()
-            labels[counter:counter+batch[1].shape[0]] = batch[1].numpy()
+            labels[counter:counter+batch[1].shape[0]] = batch[1].numpy().astype(int)
             paths += batch[2]
             counter += batch[0].shape[0]
 
