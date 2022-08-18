@@ -50,14 +50,17 @@ if __name__ == "__main__":
         paths = []
         counter = 0
 
+        print("computing the scores")
         for batch in tqdm(imagenet_loader):
             scores[counter:counter+batch[0].shape[0],:] = model(batch[0].cuda()).softmax(dim=1).cpu().numpy()
             labels[counter:counter+batch[1].shape[0]] = batch[1].numpy().astype(int)
             paths += batch[2]
             counter += batch[0].shape[0]
 
+        print("saving the scores and labels")
         os.makedirs(str(ABSPATH.parent) + '/data/imagenet/examples', exist_ok=True)
-        np.savez(str(ABSPATH.parent) + '/data/imagenet/imagenet-resnet152.npz', scores, labels, example_indexes)
+        np.savez(str(ABSPATH.parent) + '/data/imagenet/imagenet-resnet152.npz', smx=scores, labels=labels, example_indexes=example_indexes)
 
+        print("moving a subset of images to the examples folder")
         for idx in example_indexes:
             shutil.copy(paths[idx], str(ABSPATH.parent) + '/data/imagenet/examples/' + str(idx) + '.jpeg')

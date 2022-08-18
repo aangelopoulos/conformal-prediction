@@ -1,0 +1,29 @@
+name: conformal 
+channels:
+    - anaconda
+    - conda-forge
+    - pytorch
+dependencies:
+    - python=3.8
+    - pip
+    - numpy
+    - numpy-base
+    - matplotlib
+    - matplotlib-base
+    - scipy
+    - scikit-image
+    - pytorch >= 1.7
+    - torchvision
+    - torchaudio
+    - pandas
+    - pillow
+    - imageio
+    - seaborn
+    - tqdm
+    - pyyaml
+    - pycocotools
+    - cudatoolkit
+    - faiss-gpu
+    - pip:
+        - inplace-abn 
+        - randaugment
