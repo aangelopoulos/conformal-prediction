@@ -114,14 +114,14 @@ def optimize_params_GBR(X_train, X_val, y_train, y_val, alpha=0.1):
     pred_mean_val = mean.predict(X_val)
     pred_upper_val = upper.predict(X_val)
     pred_lower_val = lower.predict(X_val)
-    return pred_upper_val, pred_lower_val
+    return pred_mean_val, pred_upper_val, pred_lower_val
 
 def save_model_outputs():
     X, y = get_data()
     X_train, X_val, y_train, y_val = process_data(*shuffle_split(X,y))
-    upper_val, lower_val = optimize_params_GBR(X_train, X_val, y_train, y_val)
+    pred_val, upper_val, lower_val = optimize_params_GBR(X_train, X_val, y_train, y_val)
     os.makedirs(str(ABSPATH.parent) + '/data/meps/', exist_ok=True)
-    np.savez(str(ABSPATH.parent) + '/data/meps/meps-gbr.npz', upper=upper_val, lower=lower_val, X=X_val, y=y_val)
+    np.savez(str(ABSPATH.parent) + '/data/meps/meps-gbr.npz', pred=pred_val, upper=upper_val, lower=lower_val, X=X_val, y=y_val)
 
 if __name__ == "__main__":
     random.seed(0)
