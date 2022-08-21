@@ -55,6 +55,8 @@ if __name__ == "__main__":
         model = model.cuda().eval()
         state = torch.load(args['model_path'], map_location='cpu')
         classes_list = np.array(list(state['idx_to_class'].values()))
+        os.makedirs(str(ABSPATH.parent) + '/data/coco/', exist_ok=True)
+        np.save(str(ABSPATH.parent) + '/data/coco/human_readable_labels.npy', classes_list)
         args['num_classes'] = state['num_classes']
         model.eval()
 
