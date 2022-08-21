@@ -4,7 +4,7 @@ channels:
     - conda-forge
     - pytorch
 dependencies:
-    - python=3.8
+    - python=3.7
     - pip
     - numpy
     - numpy-base
@@ -12,18 +12,17 @@ dependencies:
     - matplotlib-base
     - scipy
     - scikit-image
-    - pytorch >= 1.7
+    - pytorch
     - torchvision
     - torchaudio
     - pandas
-    - pillow
+    - pillow=6.1
     - imageio
     - seaborn
     - tqdm
     - pyyaml
     - pycocotools
-    - cudatoolkit
+    - cudatoolkit=11.6
     - faiss-gpu
     - pip:
-        - inplace-abn 
         - randaugment

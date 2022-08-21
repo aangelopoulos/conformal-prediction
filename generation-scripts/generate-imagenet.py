@@ -46,7 +46,7 @@ if __name__ == "__main__":
         model.eval()
         scores = np.ones((len(imagenet_dataset),1000))
         labels = np.ones((len(imagenet_dataset),))
-        example_indexes = np.random.choice(len(imagenet_dataset), size=(500,), replace=False, p=None) # Randomly sample 1000 images for people to play with
+        example_indexes = np.random.choice(len(imagenet_dataset), size=(500,), replace=False, p=None) # Randomly sample 500 images for people to play with
         paths = []
         counter = 0
 
