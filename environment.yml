@@ -26,3 +26,4 @@ dependencies:
     - faiss-gpu
     - pip:
         - randaugment
+        - gdown
