@@ -23,7 +23,8 @@ def get_sigmoids_targets(model, folders):
 
     num_examples = get_num_examples(folders)
     print(f'Caching {num_examples} labeled examples.')
-    paths = ['']*num_examples
+    img_paths = ['']*num_examples
+    mask_paths = ['']*num_examples
     sigmoids = np.zeros((num_examples, test_size, test_size))
     gt_masks = np.zeros((num_examples, test_size, test_size))
     
@@ -44,12 +45,13 @@ def get_sigmoids_targets(model, folders):
             res5, res4, res3, res2 = model(image)
             
             # Populate the arrays
-            paths[k] = image_root + '/' + name
+            img_paths[k] = image_root + '/' + name
+            mask_paths[k] = gt_root + '/' + name
             sigmoids[k,:,:] = (res2/T).sigmoid().detach().cpu().numpy()
             gt_masks[k,:,:] = resize(gt, (test_size, test_size), anti_aliasing=False) > 0.5
             k += 1
 
-    return sigmoids, gt_masks, np.array(paths)
+    return sigmoids, gt_masks, np.array(img_paths), np.array(mask_paths)
 
 if __name__ == "__main__":
     with torch.no_grad():
@@ -66,9 +68,9 @@ if __name__ == "__main__":
         model.cuda()
         model.eval()
 
-        sigmoids, targets, paths = get_sigmoids_targets(model, folders)
+        sigmoids, targets, img_paths, mask_paths = get_sigmoids_targets(model, folders)
 
-        example_indexes = np.random.choice(paths.shape[0], size=(500,), replace=False, p=None) # Randomly sample 500 images for people to play with
+        example_indexes = np.random.choice(img_paths.shape[0], size=(500,), replace=False, p=None) # Randomly sample 500 images for people to play with
 
         print("saving the sigmoid scores and labels")
         os.makedirs(str(ABSPATH.parent) + '/data/polyps/examples', exist_ok=True)
@@ -76,4 +78,5 @@ if __name__ == "__main__":
 
         print("moving a subset of images to the examples folder")
         for idx in example_indexes:
-            shutil.copy(paths[idx], str(ABSPATH.parent) + '/data/polyps/examples/' + str(idx) + '.jpg')
+            shutil.copy(img_paths[idx], str(ABSPATH.parent) + '/data/polyps/examples/' + str(idx) + '.jpg')
+            shutil.copy(mask_paths[idx], str(ABSPATH.parent) + '/data/polyps/examples/' + str(idx) + '_gt_mask.jpg')
