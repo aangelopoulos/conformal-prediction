@@ -25,6 +25,7 @@ dependencies:
     - cudatoolkit=11.6
     - faiss-gpu
     - ipykernel
+    - catboost
     - pip:
         - randaugment
         - gdown
