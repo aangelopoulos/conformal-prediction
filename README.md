@@ -12,7 +12,7 @@
 
 <p>
 This repository is the easiest way to start using conformal prediction on real data.
-Each notebook in `notebooks` applies conformal prediction to a real prediction problem with a state-of-the-art machine learning model.
+Each notebook in <code>notebooks</code> applies conformal prediction to a real prediction problem with a state-of-the-art machine learning model.
 </p>
 
 <p>
