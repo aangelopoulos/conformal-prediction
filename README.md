@@ -1,4 +1,4 @@
-<h1 align="center">Conformal Prediction</h1>
+<h1 align="center" style="border-bottom:none">Conformal Prediction</h1>
 <h3 align="center">a gentle introduction</h3>
 
 
