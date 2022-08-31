@@ -16,13 +16,20 @@ Each notebook in `notebooks` applies conformal prediction to a real prediction p
 </p>
 
 <p>
-<b>No need to download the model or data!</b> Raw model outputs on the validation dataset and a small amount of sample data are downloaded automatically by the notebooks. You can use these notebooks to experiment 
+<b>No need to download the model or data!</b> Raw model outputs on the validation dataset and a small amount of sample data are downloaded automatically by the notebooks. Click on a notebook to see the expected output. You can use these notebooks to experiment with existing methods or as templates to develop your own.
 For example,
 </p>
-
-* `notebooks/imagenet-smallest-sets.ipynb`: Imagenet 
+* [`notebooks/imagenet-smallest-sets.ipynb`](https://github.com/aangelopoulos/conformal-prediction): Imagenet classification with a ResNet152 classifier. Prediction sets guaranteed to contain the true class with 90% probability.
+* [`notebooks/meps-cqr.ipynb`](https://github.com/aangelopoulos/conformal-prediction/blob/main/notebooks/meps-cqr.ipynb): Medical expenditure regression with a Gradient Boosting Regressor and conformalized quantile regression. Prediction intervals guaranteed to contain the true dollar value with 90% probability.
+* [`notebooks/multilabel-classification-mscoco.ipynb`](https://github.com/aangelopoulos/conformal-prediction/blob/main/notebooks/multilabel-classification-mscoco.ipynb): Multilabel image classification on the Microsoft Common Objects in Context (MS-COCO) dataset. Set-valued prediction is guaranteed to contain 90% of the ground truth classes.
+* [`notebooks/toxic-text-outlier-detection.ipynb`](https://github.com/aangelopoulos/conformal-prediction/blob/main/notebooks/toxic-text-outlier-detection.ipynb): Detecting toxic or hateful online comments via conformal outlier detection. No more than 10% of in-distribution data will get flagged as toxic.
+* [`notebooks/tumor-segmentation.ipynb`](https://github.com/aangelopoulos/conformal-prediction/blob/main/notebooks/tumor-segmentation.ipynb): Segmenting gut polyps from endoscopy images. Segmentation masks contain 90% of the ground truth tumor pixels.
+* [`notebooks/weather-time-series-distribution-shift`](https://github.com/aangelopoulos/conformal-prediction/blob/main/notebooks/weather-time-series-distribution-shift.ipynb): Predicting future temperatures around the world using time-series data and weighted conformal prediction. Prediction intervals contaion 90% of true temperatures.
+* [`notebooks/imagenet-selective-classification.ipynb`](https://github.com/aangelopoulos/conformal-prediction/blob/main/notebooks/imagenet-selective-classification.ipynb): When the Imagenet classifier is unsure, it will abstain. Otherwise, it will have an accuracy of 90%, even though the base model was only 77% accurate.
+* ...and more!
 
 <p>
 This repository is meant to accompany our paper, the [Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification](https://arxiv.org/abs/2107.07511).
+See that paper for a detailed explanation of each example, cross-referencing this code.
 If you find the repository useful, please cite the paper.
 </p>
