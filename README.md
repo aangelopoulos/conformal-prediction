@@ -30,6 +30,9 @@ Raw model outputs for several large-scale real-world datasets and a small amount
     <li><a href="https://github.com/aangelopoulos/conformal-prediction/blob/main/notebooks/imagenet-selective-classification.ipynb"><code>notebooks/imagenet-selective-classification.ipynb</code></a>: When the Imagenet classifier is unsure, it will abstain. Otherwise, it will have an accuracy of 90%, even though the base model was only 77% accurate.</li>
     <li>...and more!</li>
 </ul>
+<p>
+    You will need 1.5GB of space on your computer in order to download the cached model outputs and dataset subsamples. If you want to see how we generated these, see the files in <code>generation-scripts</code>. There is one for each dataset.
+</p>
 
 <h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">Citation</h1>
 <p>
@@ -46,5 +49,3 @@ If you find the repository useful, please cite us as follows.
   year={2021}
 }
 </pre></code>
-
-<h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">Citation</h1>
