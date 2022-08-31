@@ -15,7 +15,7 @@ This repository is the easiest way to start using conformal prediction on real d
 Each of the <code>notebooks</code> applies conformal prediction to a real prediction problem with a state-of-the-art machine learning model.
 </p>
 
-<p align="center"> <b>No need to download the model or data in order to run conformal prediction!</b></p>
+<p align="center"> <b>No need to download the model or data in order to run conformal prediction on large-scale real-data problems!</b></p>
 <p>
 Raw model outputs on the validation dataset and a small amount of sample data are downloaded automatically by the notebooks. Click on a notebook to see the expected output. You can use these notebooks to experiment with existing methods or as templates to develop your own.
 </p>
