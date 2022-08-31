@@ -40,14 +40,12 @@ This repository is meant to accompany our paper, the <a href="https://arxiv.org/
 See that paper for a detailed explanation of each example.
 If you find the repository useful, please cite:
 </p>
-<pre><code>
-@article{angelopoulos2021gentle,
+<pre><code>@article{angelopoulos2021gentle,
   title={A gentle introduction to conformal prediction and distribution-free uncertainty quantification},
   author={Angelopoulos, Anastasios N and Bates, Stephen},
   journal={arXiv preprint arXiv:2107.07511},
   year={2021}
-}
-</code></pre>
+}</code></pre>
 <h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">Videos</h1>
 If you're interested in learning about conformal prediction in video form, watch our videos below!
 
