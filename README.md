@@ -50,10 +50,10 @@ If you find the repository useful, please cite:
 If you're interested in learning about conformal prediction in video form, watch our videos below!
 
 <h4 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">A Tutorial on Conformal Prediction</h4>
-<a align="center" href="https://www.youtube.com/watch?v=nql000Lu_iE"> <img width="250" src="https://img.youtube.com/vi/nql000Lu_iE/maxresdefault.jpg" /> </a>
+<a href="https://www.youtube.com/watch?v=nql000Lu_iE"> <img width="250" src="https://img.youtube.com/vi/nql000Lu_iE/maxresdefault.jpg" /> </a>
 
 <h4 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">A Tutorial on Conformal Prediction Part 2: Conditional Coverage</h4>
-<a align="center" href="https://www.youtube.com/watch?v=TRx4a2u-j7M&t=701s"> <img width="250" src="https://img.youtube.com/vi/TRx4a2u-j7M/maxresdefault.jpg" /> </a>
+<a href="https://www.youtube.com/watch?v=TRx4a2u-j7M&t=701s"> <img width="250" src="https://img.youtube.com/vi/TRx4a2u-j7M/maxresdefault.jpg" /> </a>
 
 <h4 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">A Tutorial on Conformal Prediction Part 3: Beyond Conformal Prediction</h4>
-<a align="center" href="https://www.youtube.com/watch?v=37HKrmA5gJE&t=305s"> <img width="250" src="https://img.youtube.com/vi/37HKrmA5gJE/maxresdefault.jpg" /> </a>
+<a href="https://www.youtube.com/watch?v=37HKrmA5gJE&t=305s"> <img width="250" src="https://img.youtube.com/vi/37HKrmA5gJE/maxresdefault.jpg" /> </a>
