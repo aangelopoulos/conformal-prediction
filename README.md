@@ -38,11 +38,11 @@ See that paper for a detailed explanation of each example, cross-referencing thi
 If you find the repository useful, please cite us as follows.
 </p>
 
-<code>
+<code><pre>
 @article{angelopoulos2021gentle,
   title={A gentle introduction to conformal prediction and distribution-free uncertainty quantification},
   author={Angelopoulos, Anastasios N and Bates, Stephen},
   journal={arXiv preprint arXiv:2107.07511},
   year={2021}
 }
-</code>
+</pre></code>
