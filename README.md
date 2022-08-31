@@ -49,3 +49,12 @@ If you find the repository useful, please cite us as follows.
   year={2021}
 }
 </pre></code>
+
+<h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">Videos</h1>
+If you're interested in learning about conformal prediction in video form, watch our videos below!
+
+<iframe width="1238" height="696" src="https://www.youtube.com/embed/nql000Lu_iE" title="A Tutorial on Conformal Prediction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="1238" height="696" src="https://www.youtube.com/embed/TRx4a2u-j7M" title="A Tutorial on Conformal Prediction Part 2: Conditional Coverage and Diagnostics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="1238" height="696" src="https://www.youtube.com/embed/37HKrmA5gJE" title="Tutorial on Conformal Prediction Part 3: Beyond Conformal Prediction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
