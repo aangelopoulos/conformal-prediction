@@ -1,5 +1,5 @@
-<h1 align="center" style="border-bottom:none">Conformal Prediction</h1>
-<h3 align="center">a gentle introduction</h3>
+<h3 align="center" style="border-bottom:none">Conformal Prediction</h3>
+<h4 align="center">a gentle introduction</h4>
 
 
 <p align="center">
