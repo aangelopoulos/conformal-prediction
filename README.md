@@ -1,5 +1,5 @@
 <h1 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">Conformal Prediction</h1>
-<h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">rigorous uncertainty quantification for any machine learning task</h1>
+<h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">rigorous uncertainty quantification for any machine learning task</h3>
 
 <p align="center">
     <a style="text-decoration:none !important;" href="https://arxiv.org/abs/2107.07511" alt="arXiv"> <img src="https://img.shields.io/badge/paper-arXiv-red" /> </a>
@@ -19,7 +19,7 @@ Each of the <code>notebooks</code> applies conformal prediction to a real predic
 <p>
 Raw model outputs for several large-scale real-world datasets and a small amount of sample data from each dataset are downloaded automatically by the notebooks. You can develop and test conformal prediction methods entirely in this sandbox, without ever needing to run the original model or download the original data. Click on a notebook to see the expected output. You can use these notebooks to experiment with existing methods or as templates to develop your own.
 </p>
-<h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">Example notebooks</h1>
+<h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">Example notebooks</h3>
 <ul>
     <li><a href="https://github.com/aangelopoulos/conformal-prediction"><code>notebooks/imagenet-smallest-sets.ipynb</code></a>: Imagenet classification with a ResNet152 classifier. Prediction sets guaranteed to contain the true class with 90% probability.</li>
     <li><a href="https://github.com/aangelopoulos/conformal-prediction/blob/main/notebooks/meps-cqr.ipynb"><code>notebooks/meps-cqr.ipynb</code></a>: Medical expenditure regression with a Gradient Boosting Regressor and conformalized quantile regression. Prediction intervals guaranteed to contain the true dollar value with 90% probability.</li>
@@ -34,7 +34,7 @@ Raw model outputs for several large-scale real-world datasets and a small amount
     You will need 1.5GB of space on your computer in order to download the cached model outputs and dataset subsamples. If you want to see how we generated these, see the files in <code>generation-scripts</code>. There is one for each dataset.
 </p>
 
-<h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">Citation</h1>
+<h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">Citation</h3>
 <p>
 This repository is meant to accompany our paper, the <a href="https://arxiv.org/abs/2107.07511">Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification</a>
 See that paper for a detailed explanation of each example.
@@ -46,11 +46,14 @@ If you find the repository useful, please cite:
   journal={arXiv preprint arXiv:2107.07511},
   year={2021}
 }</code></pre>
-<h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">Videos</h1>
+<h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">Videos</h3>
 If you're interested in learning about conformal prediction in video form, watch our videos below!
 
-<iframe width="1238" height="696" src="https://www.youtube.com/embed/nql000Lu_iE" title="A Tutorial on Conformal Prediction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h4 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">A Tutorial on Conformal Prediction</h4>
+<a href=""> <img src="https://img.youtube.com/vi/nql000Lu_iE/maxresdefault.jpg" /> </a>
 
-<iframe width="1238" height="696" src="https://www.youtube.com/embed/TRx4a2u-j7M" title="A Tutorial on Conformal Prediction Part 2: Conditional Coverage and Diagnostics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h4 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">A Tutorial on Conformal Prediction Part 2: Conditional Coverage</h4>
+<a href=""> <img src="https://img.youtube.com/vi/TRx4a2u-j7M/maxresdefault.jpg" /> </a>
 
-<iframe width="1238" height="696" src="https://www.youtube.com/embed/37HKrmA5gJE" title="Tutorial on Conformal Prediction Part 3: Beyond Conformal Prediction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h4 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">A Tutorial on Conformal Prediction Part 3: Beyond Conformal Prediction</h4>
+<a href=""> <img src="https://img.youtube.com/vi/37HKrmA5gJE/maxresdefault.jpg" /> </a>
