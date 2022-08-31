@@ -17,8 +17,8 @@ Each of the <code>notebooks</code> applies conformal prediction to a real predic
 
 <p>
 <b>No need to download the model or data!</b> Raw model outputs on the validation dataset and a small amount of sample data are downloaded automatically by the notebooks. Click on a notebook to see the expected output. You can use these notebooks to experiment with existing methods or as templates to develop your own.
-For example,
 </p>
+<h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">Example notebooks</h1>
 <ul>
     <li><a href="https://github.com/aangelopoulos/conformal-prediction"><code>notebooks/imagenet-smallest-sets.ipynb</code></a>: Imagenet classification with a ResNet152 classifier. Prediction sets guaranteed to contain the true class with 90% probability.</li>
     <li><a href="https://github.com/aangelopoulos/conformal-prediction/blob/main/notebooks/meps-cqr.ipynb"><code>notebooks/meps-cqr.ipynb</code></a>: Medical expenditure regression with a Gradient Boosting Regressor and conformalized quantile regression. Prediction intervals guaranteed to contain the true dollar value with 90% probability.</li>
@@ -30,8 +30,17 @@ For example,
     <li>...and more!</li>
 </ul>
 
+<h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">Citation</h1>
 <p>
 This repository is meant to accompany our paper, the [Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification](https://arxiv.org/abs/2107.07511).
 See that paper for a detailed explanation of each example, cross-referencing this code.
-If you find the repository useful, please cite the paper.
+If you find the repository useful, please cite us as follows.
+<code>
+@article{angelopoulos2021gentle,
+  title={A gentle introduction to conformal prediction and distribution-free uncertainty quantification},
+  author={Angelopoulos, Anastasios N and Bates, Stephen},
+  journal={arXiv preprint arXiv:2107.07511},
+  year={2021}
+}
+</code>
 </p>
