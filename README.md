@@ -42,12 +42,14 @@ If you find the repository useful, please cite:
 </p>
 
 <code>
-<pre>@article{angelopoulos2021gentle,
+    <pre>
+@article{angelopoulos2021gentle,
   title={A gentle introduction to conformal prediction and distribution-free uncertainty quantification},
   author={Angelopoulos, Anastasios N and Bates, Stephen},
   journal={arXiv preprint arXiv:2107.07511},
   year={2021}
-}</pre>
+}
+    </pre>
 </code>
 
 <h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">Videos</h1>
