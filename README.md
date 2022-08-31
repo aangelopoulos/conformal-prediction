@@ -20,7 +20,7 @@ Each notebook in `notebooks` applies conformal prediction to a real prediction p
 For example,
 </p>
 <ul>
-    <li>[`notebooks/imagenet-smallest-sets.ipynb`](https://github.com/aangelopoulos/conformal-prediction): Imagenet classification with a ResNet152 classifier. Prediction sets guaranteed to contain the true class with 90% probability.</li>
+    <li><a href="https://github.com/aangelopoulos/conformal-prediction">`notebooks/imagenet-smallest-sets.ipynb`</a>: Imagenet classification with a ResNet152 classifier. Prediction sets guaranteed to contain the true class with 90% probability.</li>
     <li>[`notebooks/meps-cqr.ipynb`](https://github.com/aangelopoulos/conformal-prediction/blob/main/notebooks/meps-cqr.ipynb): Medical expenditure regression with a Gradient Boosting Regressor and conformalized quantile regression. Prediction intervals guaranteed to contain the true dollar value with 90% probability.</li>
     <li>[`notebooks/multilabel-classification-mscoco.ipynb`](https://github.com/aangelopoulos/conformal-prediction/blob/main/notebooks/multilabel-classification-mscoco.ipynb): Multilabel image classification on the Microsoft Common Objects in Context (MS-COCO) dataset. Set-valued prediction is guaranteed to contain 90% of the ground truth classes.</li>
     <li>[`notebooks/toxic-text-outlier-detection.ipynb`](https://github.com/aangelopoulos/conformal-prediction/blob/main/notebooks/toxic-text-outlier-detection.ipynb): Detecting toxic or hateful online comments via conformal outlier detection. No more than 10% of in-distribution data will get flagged as toxic.</li>
