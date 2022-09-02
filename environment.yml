@@ -26,6 +26,7 @@ dependencies:
     - faiss-gpu
     - ipykernel
     - catboost
+    - jupyter
     - pip:
         - randaugment
         - gdown
