@@ -32,7 +32,7 @@ Raw model outputs for several large-scale real-world datasets and a small amount
     <li>...and more!</li>
 </ul>
 <p>
-    You will need 1.5GB of space on your computer in order to download the cached model outputs and dataset subsamples. If you want to see how we generated these, see the files in <code>generation-scripts</code>. There is one for each dataset. To download the Python dependencies, run `conda env create -f environment.yml` and activate the `conformal` environment within your notebook.
+    To run these notebooks, you just need to have the correct dependencies installed and press run! They will automatically download all required data and model outputs.  You will need 1.5GB of space on your computer in order for the notebook to store these artifacts. If you want to see how we generated the precomputed model outputs and data subsamples, see the files in <code>generation-scripts</code>. There is one for each dataset. To create a <code>conda</code> environment with the correct dependencies, run <code>conda env create -f environment.yml</code>. If you still get a dependency error, make sure to activate the <code>conformal</code> environment within the Jupyter notebook.
 </p>
 
 <h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">Citation</h3>
