@@ -39,7 +39,7 @@ Raw model outputs for several large-scale real-world datasets and a small amount
 <p>
 This repository is meant to accompany our paper, the <a href="https://arxiv.org/abs/2107.07511">Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification</a>.
 See that paper for a detailed explanation of each example and attributions.
-If you find the repository useful, please cite:
+If you find this repository useful, please cite:
 </p>
 <pre><code>@article{angelopoulos2021gentle,
   title={A gentle introduction to conformal prediction and distribution-free uncertainty quantification},
