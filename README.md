@@ -18,7 +18,7 @@ Each of the <code>notebooks</code> applies conformal prediction to a real predic
 
 <p align="center"> <b>No need to download the model or data in order to run conformal!</b></p>
 <p>
-Raw model outputs for several large-scale real-world datasets and a small amount of sample data from each dataset are downloaded automatically by the notebooks. You can develop and test conformal prediction methods entirely in this sandbox, without ever needing to run the original model or download the original data. Click on a notebook to see the expected output. You can use these notebooks to experiment with existing methods or as templates to develop your own.
+Raw model outputs for several large-scale real-world datasets and a small amount of sample data from each dataset are downloaded automatically by the notebooks. You can develop and test conformal prediction methods entirely in this sandbox, without ever needing to run the original model or download the original data. Click on a notebook to see the expected output. You can use these notebooks to experiment with existing methods or as templates to develop your own. 
 </p>
 <h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">Example notebooks</h3>
 <ul>
@@ -32,7 +32,7 @@ Raw model outputs for several large-scale real-world datasets and a small amount
     <li>...and more!</li>
 </ul>
 <p>
-    You will need 1.5GB of space on your computer in order to download the cached model outputs and dataset subsamples. If you want to see how we generated these, see the files in <code>generation-scripts</code>. There is one for each dataset.
+    You will need 1.5GB of space on your computer in order to download the cached model outputs and dataset subsamples. If you want to see how we generated these, see the files in <code>generation-scripts</code>. There is one for each dataset. To download the Python dependencies, run `conda env create -f environment.yml` and activate the `conformal` environment within your notebook.
 </p>
 
 <h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">Citation</h3>
