@@ -2,7 +2,7 @@
 <h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">rigorous uncertainty quantification for any machine learning task</h3>
 
 <p align="center">
-    <a style="text-decoration:none !important;" href="https://arxiv.org/abs/2107.07511" alt="arXiv"><img src="https://img.shields.io/badge/paper-arXiv-red" /></a>
+    <a style="text-decoration:none !important;" href="https://arxiv.org/abs/2107.07511" alt="arXiv"><img style="vertical-align:middle" src="https://img.shields.io/badge/paper-arXiv-red" /></a>
     <a style="text-decoration:none !important;" href="https://people.eecs.berkeley.edu/%7Eangelopoulos/blog/posts/gentle-intro" alt="website"><img src="https://img.shields.io/badge/website-Berkeley-yellow" /></a>
     <a style="text-decoration:none !important;" href="https://docs.conda.io/en/latest/miniconda.html" alt="package management"> <img src="https://img.shields.io/badge/conda-env-green" /></a>
     <a style="text-decoration:none !important;" href="https://opensource.org/licenses/MIT" alt="License"><img src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
