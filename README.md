@@ -16,7 +16,7 @@ This repository is the easiest way to start using conformal prediction on real d
 Each of the <code>notebooks</code> applies conformal prediction to a real prediction problem with a state-of-the-art machine learning model.
 </p>
 
-<p align="center"> <b>No need to download the model or data in order to run conformal!</b></p>
+<p align="center"> <b>No need to download the model or data in order to run conformal</b></p>
 <p>
 Raw model outputs for several large-scale real-world datasets and a small amount of sample data from each dataset are downloaded automatically by the notebooks. You can develop and test conformal prediction methods entirely in this sandbox, without ever needing to run the original model or download the original data. Open a notebook to see the expected output. You can use these notebooks to experiment with existing methods or as templates to develop your own. 
 </p>
@@ -32,7 +32,7 @@ Raw model outputs for several large-scale real-world datasets and a small amount
     <li>...and more!</li>
 </ul>
 
-<h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">Notebooks can be run immediately using Google Colab links in the top cell!</h3>
+<h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">Notebooks can be run immediately using Google Colab links in the top cell</h3>
 
 <p>
     To run these notebooks locally, you just need to have the correct dependencies installed and press <code>run all</code>! The notebooks will automatically download all required data and model outputs.  You will need 1.5GB of space on your computer in order for the notebook to store the auto-downloaded data. If you want to see how we generated the precomputed model outputs and data subsamples, see the files in <code>generation-scripts</code>. There is one for each dataset. To create a <code>conda</code> environment with the correct dependencies, run <code>conda env create -f environment.yml</code>. If you still get a dependency error, make sure to activate the <code>conformal</code> environment within the Jupyter notebook.
