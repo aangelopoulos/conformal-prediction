@@ -33,7 +33,7 @@ Raw model outputs for several large-scale real-world datasets and a small amount
 </ul>
 
 <h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">Notebooks can be run immediately using the provided Google Colab links</h3>
-<h5 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">see the top cell of each notebook</h5>
+<h5 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">Colab links are in the top cell of each notebook</h5>
 
 <p>
     To run these notebooks locally, you just need to have the correct dependencies installed and press <code>run all</code>! The notebooks will automatically download all required data and model outputs.  You will need 1.5GB of space on your computer in order for the notebook to store the auto-downloaded data. If you want to see how we generated the precomputed model outputs and data subsamples, see the files in <code>generation-scripts</code>. There is one for each dataset. To create a <code>conda</code> environment with the correct dependencies, run <code>conda env create -f environment.yml</code>. If you still get a dependency error, make sure to activate the <code>conformal</code> environment within the Jupyter notebook.
