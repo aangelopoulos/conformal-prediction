@@ -54,8 +54,6 @@ If you find this repository useful, please cite:
 <h3 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">Videos</h3>
 If you're interested in learning about conformal prediction in video form, watch our videos below!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nql000Lu_iE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <h4 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">A Tutorial on Conformal Prediction</h4>
 <p align="center"><a href="https://www.youtube.com/watch?v=nql000Lu_iE"> <img width="350" src="https://img.youtube.com/vi/nql000Lu_iE/maxresdefault.jpg" /> </a></p>
 
