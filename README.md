@@ -61,4 +61,4 @@ If you're interested in learning about conformal prediction in video form, watch
 <p align="center"><a href="https://www.youtube.com/watch?v=TRx4a2u-j7M"> <img width="350" src="https://img.youtube.com/vi/TRx4a2u-j7M/maxresdefault.jpg" /> </a></p>
 
 <h4 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">A Tutorial on Conformal Prediction Part 3: Beyond Conformal Prediction</h4>
-<p align="center"><a href="https://www.youtube.com/watch?v=37HKrmA5gJE&t=305s"> <img width="350" src="https://img.youtube.com/vi/37HKrmA5gJE/maxresdefault.jpg" /> </a></p>
+<p align="center"><a href="https://www.youtube.com/watch?v=37HKrmA5gJE"> <img width="350" src="https://img.youtube.com/vi/37HKrmA5gJE/maxresdefault.jpg" /> </a></p>
