@@ -63,3 +63,6 @@ If you're interested in learning about conformal prediction in video form, watch
 
 <h4 align="center" style="margin-bottom:0px; border-bottom:0px; padding-bottom:0px">A Tutorial on Conformal Prediction Part 3: Beyond Conformal Prediction</h4>
 <p align="center"><a href="https://www.youtube.com/watch?v=37HKrmA5gJE"> <img width="350" src="https://img.youtube.com/vi/37HKrmA5gJE/maxresdefault.jpg" /> </a></p>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
