@@ -9,6 +9,7 @@
     <a style="text-decoration:none !important;" href="https://www.youtube.com/watch?v=nql000Lu_iE" alt="arXiv"><img src="https://img.shields.io/youtube/views/nql000Lu_iE?style=social" /></a>
     <a style="text-decoration:none !important;" href="https://twitter.com/ml_angelopoulos?ref_src=twsrc%5Etfw" alt="package management"><img src="https://img.shields.io/twitter/follow/ml_angelopoulos?style=social" /></a>
     <a style="text-decoration:none !important;" href="https://twitter.com/stats_stephen" alt="package management"><img src="https://img.shields.io/twitter/follow/stats_stephen?style=social" /></a>
+    <a class="github-button" href="https://github.com/aangelopoulos/conformal-prediction" data-icon="octicon-star" aria-label="Star aangelopoulos/conformal-prediction on GitHub">Star</a>
 </p>
 
 <p>
