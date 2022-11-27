@@ -12,7 +12,7 @@
 </p>
 
 <p>
-This repository is the easiest way to start using conformal prediction on real data.
+This repository is the easiest way to start using conformal prediction (a.k.a. conformal inference) on real data.
 Each of the <code>notebooks</code> applies conformal prediction to a real prediction problem with a state-of-the-art machine learning model.
 </p>
 
