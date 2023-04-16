@@ -7,6 +7,7 @@
     <a style="text-decoration:none !important;" href="https://docs.conda.io/en/latest/miniconda.html" alt="package management"> <img src="https://img.shields.io/badge/conda-env-green" /></a>
     <a style="text-decoration:none !important;" href="https://opensource.org/licenses/MIT" alt="License"><img src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
     <a style="text-decoration:none !important;" href="https://www.youtube.com/watch?v=nql000Lu_iE" alt="arXiv"><img src="https://img.shields.io/youtube/views/nql000Lu_iE?style=social" /></a>
+    <a style="text-decoration:none !important;" href="http://hits.dwyl.com/aangelopoulos/conformal-prediction" alt="arXiv"><img src="https://hits.dwyl.com/aangelopoulos/conformal-prediction.svg?style=flat-square" /></a>
 </p>
 
 <p>
